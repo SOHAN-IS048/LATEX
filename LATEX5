@@ -1,0 +1,17 @@
+\documentclass{book}
+\usepackage{graphicx}
+\usepackage{multirow}
+\begin{document}
+\begin{table}
+\centering
+\caption{student table}
+\label{student}
+\begin{tabular}{|l|c|c|c|c|c|c|r|}\hline
+\multirow{2}{*}{slno}&\multirow{2}{*}{USN} &\multirow{2}{*}{Student name}&\multicolumn{3}{|c|}{marks}\\\vline
+&&&subject1&subject2&subject3\\\hline
+1&4XX22XX001&SOHAN V&89&60&90\\\hline
+2&4XX22XX002&MOHAN&78&45&98\\\hline
+3&4XX22XX003&LOHAN&67&55&59\\\hline
+\end{tabular}
+\end{table}
+\end{document}

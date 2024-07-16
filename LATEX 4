@@ -1,0 +1,49 @@
+\documentclass[a4paper,15pt]{article}
+\usepackage[top=40mm,bottom=10mm,left=10mm,right=10mm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+% Define fancy headers and footers
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\fancyhead[C]{Channabasaveshwara Institute of Technology}
+\fancyfoot[C]{\thepage}
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\fancyhead[l]{Latex,Program No.4}
+\fancyhead[r]{by Sohan V}
+\fancyfoot[l]{Dept of ISE,CIT,GUBBI}
+\fancyfoot[C]{PAGE\thepage}
+\fancyfoot[R]{2023-24}
+
+\begin{document}
+
+\begin{center}
+    \textcolor{blue}{\textbf{DEPARTMENT OF INFORMATION SCIENCE}} \\
+    \vspace{5mm}
+    \textcolor{red}{\underline{\textbf{CERTIFICATE}}} \\
+    \vspace{5mm}
+\end{center}
+
+This is to certify that the Social Connect and Responsibility activity has been successfully carried out by \textbf{SOHAN V} with USN 1CG22IS048 for the Bachelor of Engineering department of the Visvesvaraya Technological University, Belgaum during the academic year 2023-24. It is certified that all the corrections indicated for internal assessment have been incorporated in the report. The Social Connect and Responsibility Activity Report has been approved as it satisfies the academic requirements in respect of the Social Connect course of Bachelor of Engineering Degree.
+
+\vspace{10mm}
+
+\begin{center}
+    ---------------------------------------------------- \\
+    \vspace{5mm}
+    \underline{\textbf{Signature of the Staff Coordinator}} \\
+    \vspace{5mm}
+    \textcolor{red}{Professor} \\
+    \textcolor{green}{Associate Professor} \\
+    \vspace{10mm}
+    ---------------------------------------------------- \\
+    \underline{\textbf{Signature of the HOD}} \\
+    \vspace{3mm}
+    \textcolor{red}{Professor} \\
+    \textcolor{green}{Associate Professor} \\
+\end{center}
+
+\end{document}

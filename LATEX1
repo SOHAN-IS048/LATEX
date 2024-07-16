@@ -1,0 +1,18 @@
+\documentclass[a5paper,50pt]{article}
+\usepackage[top=30mm,bottom=30mm,left=25mm,right=25mm]{geometry}
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\fancyhead[l]{Latex,Program No.1}
+\fancyhead[r]{by Sohan V}
+\fancyfoot[l]{Dept of ISE,CIT,GUBBI}
+\fancyfoot[C]{PAGE\thepage}
+\fancyfoot[R]{2023-24}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+\begin{document}
+   \section{Introduction to latex}
+   L is documentation preparatioin system for typesetting program.it is used to create different types of document structure. A L file(.tex) is created
+   \section{How to run Latex}
+   Assume that one is using asimple text editor like 'notepad' or'gedit'. Save the file with '.tex' extension .Build the file using pdflatex filename.tex. This will generate .pdf file.
+   \end{document}

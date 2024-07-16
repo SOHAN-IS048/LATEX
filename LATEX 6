@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\fancyhead[l]{Latex,Program No.1}
+\fancyhead[r]{by Sohan V}
+\fancyfoot[l]{Dept of ISE,CIT,GUBBI}
+
+\fancyfoot[C]{PAGE\thepage}
+\fancyfoot[R]{2023-24}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+\begin{document}
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{vtu logo.jpg}
+\caption{image1}
+\label{fig:image1}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.4\textwidth}
+\includegraphics[width=\textwidth]{vtu logo.jpg}
+\caption{Image 2}
+\label{fig:image2}
+\end{subfigure}
+\caption{Side-by-side images}
+\label{fig:side_by_side}
+\end{figure}
+
+\end{document}

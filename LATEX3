@@ -1,0 +1,43 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{geometry} 
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\fancyhead[l]{Latex,Program No.3}
+\fancyhead[r]{by Sohan V}
+\fancyfoot[l]{Dept of ISE,CIT,GUBBI}
+\fancyfoot[C]{PAGE\thepage}
+\fancyfoot[R]{2023-24}
+\geometry{a4paper,total={180mm,250mm},left=20mm,top=20mm}
+\begin{document}
+\begin{center}
+    
+
+   \textcolor{orange}{\large\textbf{VISVESVARAYA TECHNOLOGICAL UNIVERSITY}\\
+   "Jnana sangama",Belagavi-560014,Karnataka}\\
+   \vspace{7mm}
+   \includegraphics[scale=0.7]{vtu logo.jpg}
+   \vspace{2mm}
+   \\
+
+   
+   \textcolor{red}{\textbf{A REPORT ON}}\\
+     \vspace{2mm}
+  
+    \textcolor{red}{\textbf{BACHELOR OF ENGINEERING}}\\
+    \textbf{INFORMATION SCIENCE AND ENGINEERING}\\
+    \vspace{5mm}
+    \textcolor{cyan}{\underline{{\textbf{Under the guidance of}}}}\\\large\textbf{ANIL KUMAR}\\
+    Assistant professor\\
+    Dept of ISE\\
+    
+    \textcolor{blue}{\textbf{Department of Information Science and Engineering}}\\
+    \textcolor{red}{\textbf{Channabasaveshwara Institute of Technology}}\\
+    (Affiliated to Visvesvaraya Technological university)\\
+    Sira road ,Tumkuru-572106,Karnataka\\
+    2024-2025
+
+\end{center}
+\end{document}
